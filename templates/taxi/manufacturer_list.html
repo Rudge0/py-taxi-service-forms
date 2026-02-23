@@ -37,4 +37,6 @@
   {% else %}
     <p>There are no manufacturers in the service.</p>
   {% endif %}
+  <a href="{% url 'taxi:manufacturer-create' %}" style="margin-bottom: 20px"  class="btn btn-primary">Create</a>
+
 {% endblock %}

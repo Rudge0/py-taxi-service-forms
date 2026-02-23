@@ -2,9 +2,9 @@
 
 
 {% block content %}
-  <h1>Are you sure you want to delete {{ car.name }}?</h1>
+  <h1>Are you sure you want to delete {{ car.model }}?</h1>
 
-  <p><i>All cars will be also deleted!</i></p>
+  <p><i>All manufacturers will be also deleted!</i></p>
   <form action="" method="post">
     {% csrf_token %}
     <input type="submit" value="Yes, delete" class="btn btn-danger">
